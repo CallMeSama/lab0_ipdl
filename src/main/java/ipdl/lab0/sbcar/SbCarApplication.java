@@ -22,7 +22,7 @@ public class SbCarApplication {
 @RestController
 @RequestMapping("/dic_student_name")
 class SbCarController{
-    @Value("${fullname : Diarra}")
+    @Value("${fullname}")
     private String fullname;
 
     @GetMapping
